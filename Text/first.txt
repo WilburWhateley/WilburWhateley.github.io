@@ -1,4 +1,4 @@
-Lil
+﻿Lil
 Spooky
 Young
 Yung
@@ -22,7 +22,7 @@ XXX
 Tee 
 Captain
 Scary
-Cap’n
+Cap\'n
 Snuff
 Vroom
 Dirty
@@ -43,7 +43,7 @@ Funeral
 Boogie
 Global
 Skate
-Skimask
+Ski mask
 Death
 Hate
 Dat

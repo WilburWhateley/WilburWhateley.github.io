@@ -45,7 +45,7 @@ var prefixTitle = [ '',
 'Boogie',
 'Global',
 'Skate',
-'Skimask',
+'Ski mask',
 'Death',
 'Hate',
 'Dat',
@@ -351,13 +351,15 @@ function newName() {
     var randFirst = Math.floor(Math.random() * (firstName.length));
     var randLast = Math.floor(Math.random() * (lastSuffix.length));
     var randChance = Math.floor(Math.random() * 100);
-    if (randChance < 37 || 63 < randChance) {
+    if (randChance < 37 || 80 < randChance) {
         randPre = randPre
         randLast = randLast
-    } else if (37 <= randChance <= 47){
+    } else if (37 <= randChance && randChance <= 47){
         randPre = 0;
-    } else if (53 <= randChance <= 63){
+    } else if (52 <= randChance && randChance <= 62){
         randLast = 0;
+    } else if (62 < randChance && randChance <= 80){
+            randPre = 1;
     } else {
         randPre = 0;
         randLast = 0;
