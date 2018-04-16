@@ -33,10 +33,17 @@ button {
         line-height: 47px;
         border: 1px solid white;
         border-radius: 54px;
-        background-color: #FFFFFF;   
+        background-color: #FFFFFF;
+        box-shadow: 0 3px grey;    
 }
 .buttonHolder {
         padding-top: 8%;
         text-align: center;
         margin: auto;
+}
+button:hover {background-color: whitesmoke}
+button:active {
+        background-color: whitesmoke;
+        box-shadow: 0 1px grey;
+        transform: translateY(2px);
 }

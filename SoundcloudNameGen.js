@@ -328,7 +328,12 @@ var lastSuffix = [ '',
   '9000',
   'Computer',
   'Crutches' ]
-//var prefixTitle = fs.readFileSync('first.txt').toString().replace(/\r\n/g,'\n').split("\n");
+var bodyStart = [ 'The only way to Soundcloud rap fame is with a Soundcloud rapper name.']
+function bodyDisplay() {
+    var randBody = Math.floor(Math.random() * (bodyStart.length));
+    document.getElementById('nameDisplay').innerHTML = bodyStart[randBody];
+}
+  //var prefixTitle = fs.readFileSync('first.txt').toString().replace(/\r\n/g,'\n').split("\n");
     /*for(i in prefixTitle) {
         console.log(prefixTitle[i]);
     }*/
